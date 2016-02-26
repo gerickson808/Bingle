@@ -46,5 +46,6 @@
     },
     "default_title": "bingle",
     "default_popup": "popup.html"
-  }
+  },
+  "web_accessible_resources":["bingbingle.png", "binglegoogle.png"]
 }
