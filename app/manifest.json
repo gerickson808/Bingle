@@ -42,7 +42,7 @@
     }, {
       "matches": ["http://www.google.com/","http://www.bing.com/"],
       // "css": ["test.css"],
-      "js": ["https://code.jquery.com/jquery-2.2.0.min.js", "scripts/jquery.js", "scripts/test.js"]
+      "js": [ "scripts/jquery.js", "scripts/test.js"]
     }
   ],
   "omnibox": {
