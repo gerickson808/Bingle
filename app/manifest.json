@@ -33,7 +33,7 @@
     "matches": ["http://www.bing.com/", "https://www.bing.com/"],
     "js": ["scripts/jquery.js", "scripts/bingsearchfix.js"]
   }, {
-    "matches": ["http://www.google.com/", "https://www.google.com/"],
+    "matches": ["http://www.google.com/", "https://www.google.com/", "http://www.google.com/?*", "https://www.google.com/?*"],
     "js": ["scripts/jquery.js", "scripts/gotobingscript.js"]
   }, {
     "matches": ["http://www.google.com/search*", "https://www.google.com/search*"],
@@ -47,5 +47,6 @@
     },
     "default_title": "bingle",
     "default_popup": "popup.html"
-  }
+  },
+  "web_accessible_resources":["bingbingle.png", "binglegoogle.png"]
 }
