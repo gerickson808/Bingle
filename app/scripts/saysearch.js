@@ -748,5 +748,5 @@ $(document).ready(function() {
   console.log("saysearch reached");
   console.log($('#lst-ib').val());
   var shitToSay = $('#lst-ib').val() + " porn";
-  responsiveVoice.speak(shitToSay);
+  responsiveVoice.speak(shitToSay, "UK English Male", {volume: 1});
 });
