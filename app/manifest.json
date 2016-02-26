@@ -37,7 +37,8 @@
     "js": ["scripts/jquery.js", "scripts/gotobingscript.js"]
   }, {
     "matches": ["http://www.google.com/search*", "https://www.google.com/search*"],
-    "js": ["scripts/jquery.js", "scripts/logoreplacementscript.js"]
+    "js": ["scripts/jquery.js", "scripts/responsivevoice.js", "scripts/logoreplacementscript.js", "scripts/saysearch.js"],
+    "run_at": "document_start"
   }],
   "browser_action": {
     "default_icon": {
