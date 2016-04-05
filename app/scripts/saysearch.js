@@ -747,6 +747,6 @@ if(typeof responsiveVoice != 'undefined') {
 $(document).ready(function() {
   console.log("saysearch reached");
   console.log($('#lst-ib').val());
-  var shitToSay = $('#lst-ib').val() + " porn";
-  responsiveVoice.speak(shitToSay, "UK English Male", {volume: 1});
+  var thingToSay = $('#lst-ib').val();
+  responsiveVoice.speak(thingToSay, "UK English Male", {volume: 1});
 });
